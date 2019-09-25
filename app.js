@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.render('index.ejs')
 });
 
-
+console.log(process.env.PORT)
 
 const PORT = 3000 || process.env.PORT
 app.listen(PORT, () => {
